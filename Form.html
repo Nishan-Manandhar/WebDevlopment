@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning Forms</title>
+    </head>
+    <body>
+        <h1><font color="blue">Please fill in the form</font></h1>
+        <form method="post">
+            <label for="First_name">First Name:</label>
+            <input type="text" name="first_name" id="First_name" required placeholder="Enter your first name" autofocus > <br><br>
+            <label for="last_name">Last_Name:</label>
+            <input type="text" name="last_name" id="last_name" required  placeholder="Your last name" > <br><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required > <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required  placeholder="nis@gmail.com"> <br><br>
+            <label for="phone">Phone No.:</label>
+            <input type="tel" name="phone" id="phone" required  placeholder="1234567890" maxlength="10"> <br><br>
+            <label for="date">DOB:</label>
+            <input type="date" name="date" id="date" required > <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender id="Male"> Male
+            <input type="radio" name="gender id="Female"> Female <br><br>
+            <label for="Hobbies">List of Hobbies:</label>
+            <input type="checkbox" name="hobbies"> Cycling
+            <input type="checkbox" name="hobbies"> Gaming
+            <input type="checkbox" name="hobbies">Wrestling
+            <input type="checkbox" name="hobbies">Football <br><br>
+            <label for="discription">Discription:</label>
+            <textarea name="discription" id="discription" required rows="5" cols="10"></textarea> <br><br>
+            <label for="picture">Selct a Picture:</label> 
+            <input type="file" name="picture" id="picture" accept=".jpg,.png"> <br><br>
+            
+            <input type="submit" value="Submit Details"  <br><br>
+            <input type="reset" value="Reset Button" <br><br>
+        </form>
+        <video width="500" height="300" controls autoplay muted loop>
+            <source src="Sample.mp4" type="video/mp4" >
+        </video>
+    </body>
+</html>

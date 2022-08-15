@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+            <title> Form pratice 2</title>
+            <meta name="Charset" content="utf-8"
+        <meta name="description" content="Web Dev JRP |DAY4">
+        <Meta name="Keywords" content="Html">
+        <meta name="author" Content="Nishan">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"
+    </head>
+    <body bgcolor="lightblue">
+        <h1> <font color="Red"> Lazy Morning</font></h1>
+        <video width="500" height="400" controls autoplay muted loop>
+            <source src="Sample.mp4" type="video/mp4">
+        </video> 
+        <h2> Are you Lazy?</h2>
+        <h2> Please fill in the following to join the lazy club</h2> 
+        <Form method="get" bgcolor="Green">
+            <h3>Your details</h3>
+            <label for="Name">Name:</label>
+            <input type="text" name="Fullname" id="Name" color="Green" required placeholder="First and last name" autofocus> <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Abc@gmail.com"> <br><br>
+            <label for="Phone">Phone:</label>
+            <input type="tel" id="Phone" name="Phone" maxlength="10" required placeholder="1234567890"> <br><br>
+            <h2>Your Adress</h2>
+            <label for="Address">Address</label>
+            <textarea name="Address" id="Address" maxlength="100" required placeholder="123 street,Redfern"></textarea> <br><br>
+            <label for="Postcode">Post code:</label>
+            <input type="text" id="Postcode" name="Postcode" required placeholder="1234"  maxlength="4"><br><br>
+            <label for="Country">Country:</label>
+            <input type="Text" id="Country" name="Country" required placeholder="Australia">
+            <h2>Card details</h2>
+            <label for="Cardtype">Card Type:</label>
+            <input type="radio" id="Cardtype" name="Cardtype">Visa
+            <input type="radio" id="Cardtype" name="Cardtype"> AmEx
+            <input type="radio" id="Cardtype" name="Cardtype"> Mastercard <br><br>
+            <label for="cardno">Card number:</label>
+            <input type="text" id="cardno" name="cardno" maxlength="16" placeholder="1234567891234567"> <br><br> 
+            <label for="Security">Security code:</label>
+            <input type="text" maxlength="3" required placeholder="123"> <br><br>
+            <label for="Namec">Name on card</label>
+            <input type="text" placeholder="Exact name as on card" required>
+            <h2> Your Picture</h2>
+            <label for="Picture">PP size Picture</label>
+            <input type="file" accept=".jpg,.png" name="Picture" id="Picture"> <br> <br>
+            <input type="submit" value="Send request"> <br> <br>
+            <input type="reset" value="Undo all">
+
+            
+       </Form>
+    </body>
+</html>
